@@ -1,4 +1,10 @@
 nes (3 sloc)  138 Bytes
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    return (list(map(lambda x: replace if x is search else x, my_list)))
+    "replaces all occurrences of an element by another in a new list"
+
+    new_list = my_list[:]
+    for i in range(len(new_list)):
+        if new_list[i] == search:
+            new_list[i] = replace
+    return (new_list)
