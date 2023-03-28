@@ -1,4 +1,5 @@
 !/usr/bin/python3
+
 def magic_calculation(a, b):
     """Function based on Python bytecode"""
     result = 0
