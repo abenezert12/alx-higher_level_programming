@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A class that defines a rectangle"""
 
+
 class Rectangle:
     """this represents a rectangle"""
 
@@ -68,4 +69,3 @@ class Rectangle:
 
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-
